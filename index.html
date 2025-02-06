@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>РСП</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="header__wrap">
+                <div class="header__left">
+                    <a href="" class="header__logo">
+                        <img src="assets/images/logo.svg" alt="" class="white">
+                        <img src="assets/images/logo_black.svg" alt="" class="black">
+                    </a>
+                </div>
+                <div class="header__center">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    Каталог
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    О нас
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Блог
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Галерея
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__right">
+                    <div class="header__contact">
+                        <a href="tel:" class="header__tel">
+                            +7 499 322 95 96
+                        </a>
+                        <a href="mailto:" class="header__email">
+                            info@rsp-34.com
+                        </a>
+                    </div>
+                    <button class="header__btn feedback_popup__open">
+                        Оформить заказ
+                    </button>
+                    <button class="header__mobile_menu">
+                        <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect y="0.5" width="20" height="1" fill="white" />
+                            <rect y="5.5" width="20" height="1" fill="white" />
+                            <rect y="10.5" width="20" height="1" fill="white" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="promo">
+        <div class="container">
+            <div class="promo__wrap">
+                <div class="promo__logo">
+                    <img src="assets/images/promo_logo.svg" alt="">
+                </div>
+                <div class="promo__title">
+                    <h1>
+                        Производитель гидравлических уплотнений
+                    </h1>
+                </div>
+                <button class="promo__btn">
+                    Запросить каталог
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="category">
+
+        <div class="container">
+            <div class="category__wrap">
+                <div class="category__item feedback_popup_catalog__open">
+                    <div class="category__item__left">
+                        <img src="assets/images/category.png" alt="">
+                    </div>
+                    <div class="category__item__right">
+                        <div class="category__item__name">
+                            Кольца круглого сечения
+                        </div>
+                    </div>
+                </div>
+                <div class="category__item feedback_popup_catalog__open">
+                    <div class="category__item__left">
+                        <img src="assets/images/category.png" alt="">
+                    </div>
+                    <div class="category__item__right">
+                        <div class="category__item__name">
+                            Направляющая лента
+                        </div>
+                    </div>
+                </div>
+                <div class="category__item feedback_popup_catalog__open">
+                    <div class="category__item__left">
+                        <img src="assets/images/category.png" alt="">
+                    </div>
+                    <div class="category__item__right">
+                        <div class="category__item__name">
+                            Уплотнения большого диаметра
+                        </div>
+                    </div>
+                </div>
+                <div class="category__item feedback_popup_catalog__open">
+                    <div class="category__item__left">
+                        <img src="assets/images/category.png" alt="">
+                    </div>
+                    <div class="category__item__right">
+                        <div class="category__item__name">
+                            Армированные манжеты
+                        </div>
+                    </div>
+                </div>
+                <div class="category__item feedback_popup_catalog__open">
+                    <div class="category__item__left">
+                        <img src="assets/images/category.png" alt="">
+                    </div>
+                    <div class="category__item__right">
+                        <div class="category__item__name">
+                            Формовые изделия
+                        </div>
+                    </div>
+                </div>
+                <div class="category__item feedback_popup_catalog__open">
+                    <div class="category__item__left">
+                        <img src="assets/images/category.png" alt="">
+                    </div>
+                    <div class="category__item__right">
+                        <div class="category__item__name">
+                            Изделия по чертежам
+                        </div>
+                    </div>
+                </div>
+                <div class="category__item feedback_popup_catalog__open">
+                    <div class="category__item__left">
+                        <img src="assets/images/category.png" alt="">
+                    </div>
+                    <div class="category__item__right">
+                        <div class="category__item__name">
+                            Аналоги импортных уплотнений
+                        </div>
+                    </div>
+                </div>
+                <div class="category__item feedback_popup_catalog__open">
+                    <div class="category__item__left">
+                        <img src="assets/images/category.png" alt="">
+                    </div>
+                    <div class="category__item__right">
+                        <div class="category__item__name">
+                            Кольца круглого сечения
+                        </div>
+                    </div>
+                </div>
+                <div class="category__catalog feedback_popup_catalog__open">
+                    <div class="category__catalog__name">
+                        Перейти в каталог
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="info">
+        <img src="assets/images/category_bg.png" alt="" class="info_bg">
+        <img src="assets/images/category_bg2.png" alt="" class="info_bg2">
+        <div class="container">
+            <div class="info__wrap">
+                <div class="info__top">
+                    <div class="info__top_left">
+                        <div class="info__top__title">
+                            <h2>
+                                Уплотнения методом точения на специализированном оборудовании с ЧПУ
+                            </h2>
+                        </div>
+                        <div class="info__top__text">
+                            Не требует изготовления пресс–форм
+                        </div>
+                        <button class="info__top__btn feedback_popup_method__open">
+                            Подробнее о методе
+                        </button>
+                    </div>
+                    <div class="info__top_right">
+                        <div class="info__top__item">
+                            <div class="number">
+                                <span>
+                                    от
+                                </span>
+                                1 шт
+                            </div>
+                            <div class="text">
+                                Минимальная партия
+                            </div>
+                        </div>
+                        <div class="info__top__item">
+                            <div class="number">
+                                <span>
+                                    ≈
+                                </span>
+                                10 минут
+                            </div>
+                            <div class="text">
+                                Время изготовления уплотнения любой сложности
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="info__product">
+                    <a href="" class="info__product__item">
+                        <div class="info__product__item__img">
+                            <!-- <img src="" alt=""> -->
+                        </div>
+                        <div class="info__product__item__name">
+                            Грязесъемники
+                        </div>
+                    </a>
+                    <a href="" class="info__product__item">
+                        <div class="info__product__item__img">
+                            <!-- <img src="" alt=""> -->
+                        </div>
+                        <div class="info__product__item__name">
+                            Грязесъемники
+                        </div>
+                    </a>
+                    <a href="" class="info__product__item">
+                        <div class="info__product__item__img">
+                            <!-- <img src="" alt=""> -->
+                        </div>
+                        <div class="info__product__item__name">
+                            Грязесъемники
+                        </div>
+                    </a>
+                    <a href="" class="info__product__item">
+                        <div class="info__product__item__img">
+                            <!-- <img src="" alt=""> -->
+                        </div>
+                        <div class="info__product__item__name">
+                            Грязесъемники
+                        </div>
+                    </a>
+                    <a href="" class="info__product__item">
+                        <div class="info__product__item__img">
+                            <!-- <img src="" alt=""> -->
+                        </div>
+                        <div class="info__product__item__name">
+                            Грязесъемники
+                        </div>
+                    </a>
+                    <a href="" class="info__product__item">
+                        <div class="info__product__item__img">
+                            <!-- <img src="" alt=""> -->
+                        </div>
+                        <div class="info__product__item__name">
+                            Грязесъемники
+                        </div>
+                    </a>
+                </div>
+                <div class="info__material">
+                    <div class="info__material__left">
+                        <div class="info__material__title">
+                            <h2>
+                                Материалы
+                            </h2>
+                        </div>
+                        <div class="info__material__text">
+                            Основа высококачественных уплотнений RSP — сырьё от ведущих российских и мировых
+                            производителей
+                        </div>
+                        <button class="info__material__btn">
+                            Перейти в каталог материалов
+                        </button>
+                    </div>
+                    <div class="info__material__right">
+                        <div class="info__material__content">
+                            <div class="subtitle">
+                                Материалы
+                            </div>
+                            <div class="text">
+                                Уплотнения из полиуретана, резины, фторопласта, полиамида, полиацетала, пика и других
+                                полимерных материалов
+                            </div>
+                            <video autoplay loop muted class="info__bgvideo">
+                                <source src="assets/images/video.mp4" type="video/mp4">
+                                </source>
+                            </video>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="info__bottom">
+                    <div class="info__bottom__left">
+                        <div class="info__bottom__logo">
+                            <img src="assets/images/info_bottom.svg" alt="">
+                        </div>
+                        <div class="info__bottom__text">
+                            Подберём и изготовим уплотнение под ваши условия работы
+                        </div>
+                    </div>
+                    <div class="info__bottom__right">
+                        <button class="info__bottom__feedback feedback_popup_uplot__open">
+                            Отправить заявку
+                        </button>
+                        <button class="info__bottom__call feedback_popup_call__open">
+                            Заказать звонок
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feedback">
+        <div class="container">
+            <div class="feedback__wrap">
+                <div class="feedback__left">
+                    <div class="feedback__ico">
+                        <img src="assets/images/feedback.svg" alt="">
+                    </div>
+                    <div class="feedback__title">
+                        <h2>
+                            Изготовим уплотнение любого профиля и сложности за 10 минут
+                        </h2>
+                    </div>
+                    <div class="feedback__text">
+                        Заполните заявку и мы свяжемся с вами в течение рабочего времени 8:00–17:00 (мск)
+                    </div>
+                </div>
+                <div class="feedback__right">
+                    <form action="">
+                        <div class="content">
+                            <input type="text" placeholder="Имя*">
+                            <input type="text" placeholder="Название компании*">
+                            <input type="text" placeholder="+7(999)-999-99-99*">
+                            <input type="text" placeholder="E–mail*">
+                            <textarea name="" id="" placeholder="Комментарий"></textarea>
+                        </div>
+                        <button>
+                            <span>Отправить</span>
+                        </button>
+                        <div class="checkbox">
+                            <input class="custom-checkbox" type="checkbox" id="policy-1" name="policy-1" value="policy">
+                            <label for="policy-1">Я даю согласие на обработку персональных данных</label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="quality">
+        <div class="container">
+            <div class="quality__wrap">
+                <div class="quality__content">
+                    <div class="quality__ico">
+                        <img src="assets/images/quality.svg" alt="">
+                    </div>
+                    <div class="quality__title">
+                        Секрет качества
+                    </div>
+                    <div class="quality__text">
+                        Посмотрите как создаются наши гидравлические уплотнения
+                        (заголовок можно будет поменять, когда появится видео)
+                    </div>
+                </div>
+            </div>
+        </div>
+        <video autoplay loop muted class="quality__bgvideo">
+            <source src="assets/images/video.mp4" type="video/mp4">
+            </source>
+        </video>
+    </section>
+    <!-- <section class="suggestion">
+        <div class="container">
+            <div class="suggestion__wrap">
+                <div class="suggestion__top">
+                    <div class="suggestion__title">
+                        <h2>
+                            <span>
+                                Индивидуальное
+                            </span>
+                            предложение для каждого клиента
+                        </h2>
+                    </div>
+                    <div class="suggestion__btn">
+                        <button class="suggestion__btn_feedback">
+                            Отправить заявку
+                        </button>
+                        <button class="suggestion__btn_call">
+                            Заказать звонок
+                        </button>
+                    </div>
+                </div>
+                <div class="suggestion__bottom">
+                    <div class="suggestion__col">
+                        <div class="suggestion__one">
+                            <div class="suggestion__one__container">
+                                <div class="suggestion__one__top">
+                                    <div class="suggestion__one__ico">
+                                        <img src="assets/images/suggestion__one_ico.svg" alt="">
+                                    </div>
+                                    <div class="suggestion__one__info">
+                                        <div class="suggestion__one__title">
+                                            Заявка
+                                        </div>
+                                        <div class="suggestion__one__subtitle">
+                                            Выберете один из вариантов
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="suggestion__one__middle">
+                                    <div class="suggestion__one_ico2">
+                                        <img src="assets/images/suggestion__one_ico2.svg" alt="">
+                                    </div>
+                                    <div class="suggestion__one__text">
+                                        Заполните форму
+                                    </div>
+                                </div>
+                                <img src="assets/images/suggestion1.png" alt="" class="suggestion__one__bg">
+                            </div>
+                        </div>
+                        <div class="suggestion__two">
+
+                        </div>
+                    </div>
+                    <div class="suggestion__col">
+
+                    </div>
+                    <div class="suggestion__col">
+
+                    </div>
+                    <div class="suggestion__col">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section class="map">
+        <img src="assets/images/map_bg.png" alt="" class="map_bg">
+        <div class="container">
+            <div class="map__wrap">
+                <div class="map__left">
+                    <dvi class="map__title">
+                        Сотрудничаем с промышленными предприятиями России и стран СНГ
+                    </dvi>
+                </div>
+                <img class="map__bg" src="assets/images/map.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <div class="about__wrap">
+                <div class="about__left">
+                    <div class="about__ico">
+                        <img src="assets/images/about_ico.svg" alt="">
+                    </div>
+                    <div class="about__title">
+                        — стремление к совершенству
+                    </div>
+                    <div class="about__text">
+                        Постоянное развитие, использование высоко инновационных технологий и качественных материалов
+                        позволяют нам не стоять на месте. Быть лучше, чем вчера – основное правило RSP
+                    </div>
+                    <div class="about__director">
+                        <div class="about__director__ico">
+                            <img src="assets/images/about_dir.png" alt="">
+                        </div>
+                        <div class="about__info">
+                            <div class="name">
+                                Александр Николаевич Петров
+                            </div>
+                            <div class="dolzhnost">
+                                генеральный директор завода RSP
+                            </div>
+                        </div>
+                    </div>
+                    <button>
+                        <span>
+                            Больше о нас
+                        </span>
+                    </button>
+                </div>
+                <div class="about__right">
+                    <img src="assets/images/about_bg.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer__top">
+            <div class="container">
+                <div class="footer__top__wrap">
+                    <div class="footer__top__left">
+                        <a href="" class="footer__top__logo">
+                            <img src="assets/images/logo_black.svg" alt="">
+                        </a>
+                        <div class="footer__top__subtitle">
+                            Ведущий производитель уплотнений в России
+                        </div>
+                        <div class="footer__top__bottom">
+                            <div class="footer__top__contact">
+                                <a href="" class="footer__top__tel">
+                                    +7 499 322 95 96
+                                </a>
+                                <a href="" class="footer__top__mail">
+                                     info@rsp-34.com
+                                </a>
+                                <div class="footer__top__address">
+                                    Волгоградская область, город Волжский, ул. Пушкина 105г/1
+                                </div>
+                            </div>
+                            <div class="footer__top__nav">
+                                <nav>
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                О компании
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Галерея
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Блог
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Контакты
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__top__right">
+                        <form action="">
+                            <div class="footer__top__form_text">
+                                Оставьте ваши контактные данные, мы свяжемся с вами в ближайшее время
+                            </div>
+                            <div class="footer__top__form_content">
+                                <input type="text" placeholder="Имя*">
+                                <input type="text" placeholder="+7(999)-999-99-99*">
+                                <input type="text" placeholder="E–mail*">
+                            </div>
+                            <div class="footer__top__form__bottom">
+                                <button>
+                                    <span>
+                                        Отправить
+                                    </span>
+                                </button>
+                                <div class="checkbox">
+                                    <input class="custom-checkbox" type="checkbox" id="policy-2" name="policy-2"
+                                        value="policy">
+                                    <label for="policy-2">Я даю согласие на обработку персональных данных</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="footer__bottom__wrap">
+                    <div class="footer__bottom__left">
+                        <div class="footer__bottom__copy">
+                            © ООО «ЭРСИПИ» 2024
+                        </div>
+                        <div class="footer__bottom__inn">
+                            ИНН: 34 35 309 985
+                        </div>
+                    </div>
+                    <div class="footer__bottom__center">
+                        <a href="" class="footer__bottom___razrab">
+                            Разработка Effect Web
+                        </a>
+                    </div>
+                    <div class="footer__bottom__right">
+                        <a href="" class="footer__bottom__policy">
+                            Политика конфиденциальности
+                        </a>
+                        <a href="" class="footer__bottom__personal">
+                            Согласие на обработку персональных данных
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="feedback_popup">
+        <div class="feedback_popup__container">
+            <button class="feedback_popup__close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                    <path d="M1 1.5L13 13.5M1 13.5L13 1.5" stroke="white" stroke-width="1.8" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+            <div class="feedback_popup__wrap">
+                <div class="feedback_popup__text">
+                    Для оформления заказа оставьте контактные данные и мы свяжемся с вами в течение рабочего времени
+                    8:00 – 17:00 (МСК)
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Имя*">
+                    <input type="text" placeholder="Название компании*">
+                    <input type="text" placeholder="+7 (999)-999-99-99*">
+                    <input type="text" placeholder="E–mail*">
+                    <textarea name="" id="" placeholder="Комментарий"></textarea>
+                    <div class="checkbox">
+                        <input class="custom-checkbox" type="checkbox" id="policy-3" name="policy-3" value="policy">
+                        <label for="policy-3">
+                            <div>Согласен с <a href="">политикой конфиденциальности</a> и даю согласие на обработку
+                                персональных данных</div>
+                        </label>
+                    </div>
+                    <button>
+                        <span>
+                            Отправить
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="feedback_popup_catalog">
+        <div class="feedback_popup_catalog__container">
+            <button class="feedback_popup_catalog__close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                    <path d="M1 1.5L13 13.5M1 13.5L13 1.5" stroke="white" stroke-width="1.8" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+            <div class="feedback_popup_catalog__wrap">
+                <div class="feedback_popup_catalog__text">
+                    Оставьте контактные данные для получения каталога продукции RSP
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Имя*">
+                    <input type="text" placeholder="Название компании*">
+                    <input type="text" placeholder="+7 (999)-999-99-99*">
+                    <input type="text" placeholder="E–mail*">
+                    <textarea name="" id="" placeholder="Комментарий"></textarea>
+                    <div class="checkbox">
+                        <input class="custom-checkbox" type="checkbox" id="policy-4" name="policy-4" value="policy">
+                        <label for="policy-4">
+                            <div>Согласен с <a href="">политикой конфиденциальности</a> и даю согласие на обработку
+                                персональных данных</div>
+                        </label>
+                    </div>
+                    <button>
+                        <span>
+                            Отправить
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="feedback_popup_uplot">
+        <div class="feedback_popup_uplot__container">
+            <button class="feedback_popup_uplot__close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                    <path d="M1 1.5L13 13.5M1 13.5L13 1.5" stroke="white" stroke-width="1.8" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+            <div class="feedback_popup_uplot__wrap">
+                <div class="feedback_popup_uplot__text">
+                    Бесплатно подберем уплотнения для решения конкретных задач. Оставьте контактные данные для связи с
+                    нами
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Имя*">
+                    <input type="text" placeholder="Название компании*">
+                    <input type="text" placeholder="+7 (999)-999-99-99*">
+                    <input type="text" placeholder="E–mail*">
+                    <textarea name="" id="" placeholder="Комментарий"></textarea>
+                    <div class="checkbox">
+                        <input class="custom-checkbox" type="checkbox" id="policy-4" name="policy-4" value="policy">
+                        <label for="policy-4">
+                            <div>Согласен с <a href="">политикой конфиденциальности</a> и даю согласие на обработку
+                                персональных данных</div>
+                        </label>
+                    </div>
+                    <button>
+                        <span>
+                            Отправить
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="feedback_popup_call">
+        <div class="feedback_popup_call__container">
+            <button class="feedback_popup_call__close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                    <path d="M1 1.5L13 13.5M1 13.5L13 1.5" stroke="white" stroke-width="1.8" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+            <div class="feedback_popup_call__wrap">
+                <div class="feedback_popup_call__text">
+                    Оставьте контактные данные для связи с персональным менеджером
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Имя*">
+                    <input type="text" placeholder="+7 (999)-999-99-99*">
+                    <div class="checkbox">
+                        <input class="custom-checkbox" type="checkbox" id="policy-5" name="policy-5" value="policy">
+                        <label for="policy-5">
+                            <div>Согласен с <a href="">политикой конфиденциальности</a> и даю согласие на обработку
+                                персональных данных</div>
+                        </label>
+                    </div>
+                    <button>
+                        <span>
+                            Отправить
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="feedback_popup_method">
+        <div class="feedback_popup_method__container">
+            <button class="feedback_popup_method__close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                    <path d="M1 1.5L13 13.5M1 13.5L13 1.5" stroke="white" stroke-width="1.8" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+            <div class="feedback_popup_method__wrap">
+                <div class="feedback_popup_method__title">
+                    Преимущества технологии:
+                </div>
+                <div class="feedback_popup_method__text">
+                    — не требует изготовления пресс-форм— сокращает время производства уплотненийв десятки раз
+                    <br><br>
+                    — даёт возможность изготовливать уплотнения высокой точности любых размеров и форм
+                    <br><br>
+                    — работа с различными материалами расширяет возможности производства
+                    <br><br>
+                    — адаптация уплотнений
+                    под конкретные требования и условия клиента
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/animation.js"></script>
+</body>
+
+</html>

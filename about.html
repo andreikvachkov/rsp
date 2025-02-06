@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>РСП</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="header__wrap">
+                <div class="header__left">
+                    <a href="" class="header__logo">
+                        <img src="assets/images/logo.svg" alt="" class="white">
+                        <img src="assets/images/logo_black.svg" alt="" class="black">
+                    </a>
+                </div>
+                <div class="header__center">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    Каталог
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    О нас
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Блог
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Галерея
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__right">
+                    <div class="header__contact">
+                        <a href="tel:" class="header__tel">
+                            +7 499 322 95 96
+                        </a>
+                        <a href="mailto:" class="header__email">
+                            info@rsp-34.com
+                        </a>
+                    </div>
+                    <button class="header__btn">
+                        Оформить заказ
+                    </button>
+                    <button class="header__mobile_menu">
+                        <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect y="0.5" width="20" height="1" fill="white" />
+                            <rect y="5.5" width="20" height="1" fill="white" />
+                            <rect y="10.5" width="20" height="1" fill="white" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="about_promo">
+        <div class="container">
+            <div class="about_promo__wrap">
+                <div class="about_promo__content">
+                    <div class="about_promo__text">
+                        Обеспечивать предприятия высококачественной продукцией, гарантировать бесперебойную работу
+                        оборудования, быть надежным партнером
+                    </div>
+                    <div class="about_promo__subtext">
+                        — это обязанность
+                    </div>
+                    <button>
+                        <span>
+                            Запросить каталог
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <video autoplay loop muted class="promo__bgvideo">
+            <source src="assets/images/video.mp4" type="video/mp4">
+            </source>
+        </video>
+    </section>
+    <section class="about_numbers">
+        <img src="assets/images/about_number.png" alt="" class="about_numbers_bg">
+        <img src="assets/images/about_number_mob.png" alt="" class="about_numbers_bg_mob">
+        <img src="assets/images/about_number_mob2.png" alt="" class="about_numbers_bg_mob2">
+        <div class="container">
+            <div class="about_numbers__wrap">
+                <div class="about_numbers__item">
+                    <div class="about_numbers__item__top">
+                        <span class="grey">
+                            от
+                        </span>
+                        <span class="num" data-num="1000000">
+                            0
+                        </span>
+                        шт
+                    </div>
+                    <div class="about_numbers__item__text">
+                        выпускаемой продукции в год
+                    </div>
+                </div>
+                <div class="about_numbers__item">
+                    <div class="about_numbers__item__top">
+                        <span class="grey">
+                            >
+                        </span>
+                        <span class="num" data-num="1234560">
+                            0
+                        </span>
+                    </div>
+                    <div class="about_numbers__item__text">
+                        складских запасов
+                    </div>
+                </div>
+                <div class="about_numbers__item">
+                    <div class="about_numbers__item__top">
+                        <span class="num" data-num="600">
+                            0
+                        </span>
+                        <span class="grey">
+                            +
+                        </span>
+                    </div>
+                    <div class="about_numbers__item__text">
+                        довольных клиентов
+                    </div>
+                </div>
+                <div class="about_numbers__item">
+                    <div class="about_numbers__item__top">
+                        <span class="num" data-num="10">
+                            0
+                        </span>
+                        лет
+                        <span class="grey">
+                            +
+                        </span>
+                    </div>
+                    <div class="about_numbers__item__text">
+                        на рынке
+                    </div>
+                </div>
+                <div class="about_numbers__item">
+                    <div class="about_numbers__item__top">
+                        <span class="grey">
+                            от
+                        </span>
+                        <span class="num" data-num="1">
+                            0
+                        </span>
+                        шт
+                    </div>
+                    <div class="about_numbers__item__text">
+                        миниальная партия
+                    </div>
+                </div>
+                <div class="about_numbers__item">
+                    <div class="about_numbers__item__top">
+                        <span class="grey">
+                            ≈
+                        </span>
+                        <span class="num" data-num="10">
+                            0
+                        </span>
+                        минут
+                    </div>
+                    <div class="about_numbers__item__text">
+                        время изготовления уплотнения
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about_info">
+        <div class="about_info__wrap">
+            <div class="about_info__left">
+                <div class="about_info__ico">
+                    <img src="assets/images/logo_black.svg" alt="">
+                </div>
+                <div class="about_info__title">
+                    — лидер в разработке, производстве и продаже уплотнений
+                </div>
+                <div class="about_info__text">
+                    Производственные мощности, использование высококачественных материалов, значительные запасы сырья,
+                    развитие и гибкость компании, обеспечивают клиентам надёжность и уверенность в RSP. Мы предлагаем
+                    высококачественный продукт российского производства, который успешно конкурирует с мировыми
+                    аналогами
+                </div>
+                <div class="about_info__bottom">
+                    <div class="about_info__item">
+                        <div class="about_info__item__ico">
+                            <img src="assets/images/about_info1.png" alt="">
+                        </div>
+                        <div class="about_info__item__text">
+                            Ведущее направление деятельности RSP — производство уплотнений методом точения
+                        </div>
+                    </div>
+                    <div class="about_info__item">
+                        <div class="about_info__item__ico">
+                            <img src="assets/images/about_info2.png" alt="">
+                        </div>
+                        <div class="about_info__item__text">
+                            В кратчайшие сроки изготавливаем уплотнения диаметром от 0 до 2000 мм, с точностью размеров
+                            до 0,01 мм
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about_info__right">
+                <img src="assets/images/about_info3.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="about_question">
+        <img src="assets/images/about_question1.png" alt="" class="about_question__bg1">
+        <img src="assets/images/about_question2.png" alt="" class="about_question__bg2">
+        <div class="container">
+            <div class="about_question__wrap">
+                <div class="about_question__text">
+                    Ответим на все вопросы, подберем и изготовим уплотнение под ваши условия работы
+                </div>
+                <div class="about_question__btn">
+                    <button class="about_question__feedback">
+                        Отправить заявку
+                    </button>
+                    <button class="about_question__call">
+                        Заказать звонок
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about_gallery">
+        <div class="container">
+            <div class="about_gallery__wrap">
+                <div class="about_gallery__left">
+                    <div class="about_gallery__content">
+                        <div class="about_gallery__item">
+                            <img src="assets/images/gallery.png" alt="">
+                        </div>
+                        <div class="about_gallery__item">
+                            <img src="assets/images/gallery.png" alt="">
+                        </div>
+                        <div class="about_gallery__item">
+                            <img src="assets/images/gallery.png" alt="">
+                        </div>
+                        <div class="about_gallery__item">
+                            <img src="assets/images/gallery.png" alt="">
+                        </div>
+                        <div class="about_gallery__item">
+                            <img src="assets/images/gallery.png" alt="">
+                        </div>
+                        <div class="about_gallery__item">
+                            <img src="assets/images/gallery.png" alt="">
+                        </div>
+                        <div class="about_gallery__item">
+                            <img src="assets/images/gallery.png" alt="">
+                        </div>
+                        <div class="about_gallery__item">
+                            <img src="assets/images/gallery.png" alt="">
+                        </div>
+                    </div>
+                    <button>
+                        Смотреть все фотографии
+                    </button>
+                </div>
+                <div class="about_gallery__right">
+                    <div class="about_gallery__right__content">
+                        <div class="swiper about_gallery__swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="about_gallery__right__top">
+                                        <div class="about_gallery__right__ico">
+                                            <img src="assets/images/gallery3.png" alt="">
+                                        </div>
+                                        <div class="about_gallery__right__text">
+                                            ISO 9001 – контроль качества
+                                            на всех этапах производства
+                                        </div>
+                                    </div>
+                                    <div class="about_gallery__right__img">
+                                        <img src="assets/images/gallery4.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="about_gallery__right__top">
+                                        <div class="about_gallery__right__ico">
+                                            <img src="assets/images/gallery3.png" alt="">
+                                        </div>
+                                        <div class="about_gallery__right__text">
+                                            ISO 9001 – контроль качества
+                                            на всех этапах производства
+                                        </div>
+                                    </div>
+                                    <div class="about_gallery__right__img">
+                                        <img src="assets/images/gallery4.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="about_gallery__right__top">
+                                        <div class="about_gallery__right__ico">
+                                            <img src="assets/images/gallery3.png" alt="">
+                                        </div>
+                                        <div class="about_gallery__right__text">
+                                            ISO 9001 – контроль качества
+                                            на всех этапах производства
+                                        </div>
+                                    </div>
+                                    <div class="about_gallery__right__img">
+                                        <img src="assets/images/gallery4.png" alt="">
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="about_gallery__swiper__btn">
+                                <button class="about_gallery__swiper__prev">
+                                    <svg width="38" height="38" viewBox="0 0 38 38" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g filter="url(#filter0_b_3077_3712)">
+                                            <rect x="37.2236" y="37.2234" width="37.2237" height="37.2237" rx="3.72237"
+                                                transform="rotate(-180 37.2236 37.2234)" fill="#2E67F8" />
+                                            <path
+                                                d="M17.4759 26.688L9.39941 18.6116L17.4759 10.5351L19.9609 13.0202L16.1268 16.8543L26.0671 16.8543L26.0671 20.3687L16.1267 20.3688L19.9609 24.203L17.4759 26.688Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <filter id="filter0_b_3077_3712" x="-3.72237" y="-3.72261" width="44.6684"
+                                                height="44.6684" filterUnits="userSpaceOnUse"
+                                                color-interpolation-filters="sRGB">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                <feGaussianBlur in="BackgroundImageFix" stdDeviation="1.86118" />
+                                                <feComposite in2="SourceAlpha" operator="in"
+                                                    result="effect1_backgroundBlur_3077_3712" />
+                                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_3077_3712"
+                                                    result="shape" />
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                                </button>
+                                <button class="about_gallery__swiper__next">
+                                    <svg width="38" height="39" viewBox="0 0 38 39" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g filter="url(#filter0_b_657_11762)">
+                                            <rect x="0.223633" y="0.821777" width="37.2237" height="37.2237" rx="3.72237"
+                                                fill="#2E67F8" />
+                                            <path
+                                                d="M19.9714 11.3571L28.0479 19.4336L19.9714 27.5101L17.4863 25.025L21.3205 21.1908L11.3802 21.1908L11.3802 17.6765L21.3205 17.6764L17.4863 13.8422L19.9714 11.3571Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <filter id="filter0_b_657_11762" x="-3.49874" y="-2.90059" width="44.6684"
+                                                height="44.6684" filterUnits="userSpaceOnUse"
+                                                color-interpolation-filters="sRGB">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                                <feGaussianBlur in="BackgroundImageFix" stdDeviation="1.86118" />
+                                                <feComposite in2="SourceAlpha" operator="in"
+                                                    result="effect1_backgroundBlur_657_11762" />
+                                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_657_11762"
+                                                    result="shape" />
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                                </button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer__top">
+            <div class="container">
+                <div class="footer__top__wrap">
+                    <div class="footer__top__left">
+                        <a href="" class="footer__top__logo">
+                            <img src="assets/images/logo_black.svg" alt="">
+                        </a>
+                        <div class="footer__top__subtitle">
+                            Ведущий производитель уплотнений в России
+                        </div>
+                        <div class="footer__top__bottom">
+                            <div class="footer__top__contact">
+                                <a href="" class="footer__top__tel">
+                                    +7 499 322 95 96
+                                </a>
+                                <a href="" class="footer__top__mail">
+                                     info@rsp-34.com
+                                </a>
+                                <div class="footer__top__address">
+                                    Волгоградская область, город Волжский, ул. Пушкина 105г/1
+                                </div>
+                            </div>
+                            <div class="footer__top__nav">
+                                <nav>
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                О компании
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Галерея
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Блог
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Контакты
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__top__right">
+                        <form action="">
+                            <div class="footer__top__form_text">
+                                Оставьте ваши контактные данные, мы свяжемся с вами в ближайшее время
+                            </div>
+                            <div class="footer__top__form_content">
+                                <input type="text" placeholder="Имя*">
+                                <input type="text" placeholder="+7(999)-999-99-99*">
+                                <input type="text" placeholder="E–mail*">
+                            </div>
+                            <div class="footer__top__form__bottom">
+                                <button>
+                                    <span>
+                                        Отправить
+                                    </span>
+                                </button>
+                                <div class="checkbox">
+                                    <input class="custom-checkbox" type="checkbox" id="policy-2" name="policy-2"
+                                        value="policy">
+                                    <label for="policy-2">Я даю согласие на обработку персональных данных</label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="footer__bottom__wrap">
+                    <div class="footer__bottom__left">
+                        <div class="footer__bottom__copy">
+                            © ООО «ЭРСИПИ» 2024
+                        </div>
+                        <div class="footer__bottom__inn">
+                            ИНН: 34 35 309 985
+                        </div>
+                    </div>
+                    <div class="footer__bottom__center">
+                        <a href="" class="footer__bottom___razrab">
+                            Разработка Effect Web
+                        </a>
+                    </div>
+                    <div class="footer__bottom__right">
+                        <a href="" class="footer__bottom__policy">
+                            Политика конфиденциальности
+                        </a>
+                        <a href="" class="footer__bottom__personal">
+                            Согласие на обработку персональных данных
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
