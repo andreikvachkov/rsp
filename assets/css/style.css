@@ -284,7 +284,7 @@ header.white .header__contact a {
 .promo {
     height: 100vh;
     padding: 7rem 0 3.1875rem;
-    background: url("/assets/images/promo.jpg");
+    background: url("../images/promo.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -382,14 +382,14 @@ header.white .header__contact a {
     cursor: pointer;
 }
 .category__item:hover {
-    background: url("/assets/images/category_catalog.png"), #2e67f8;
+    background: url("../images/category_catalog.png"), #2e67f8;
     background-repeat: no-repeat;
     background-size: auto 100%;
 }
 .category__catalog {
     width: calc(33.3334% - 0.5rem);
     position: relative;
-    background: url("/assets/images/category_catalog.png"), #2e67f8;
+    background: url("../images/category_catalog.png"), #2e67f8;
     background-repeat: no-repeat;
     background-size: auto 100%;
     border-radius: 1.5rem;
@@ -967,7 +967,7 @@ header.white .header__contact a {
 
 .feedback {
     padding: 5rem 0;
-    background: url("/assets/images/feedback_bg.png") var(--Blue-1, #2e67f8);
+    background: url("../images/feedback_bg.png") var(--Blue-1, #2e67f8);
     background-position: left;
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -1118,7 +1118,7 @@ header.white .header__contact a {
 @media (max-width: 768px) {
     .feedback {
         padding: 3.5rem 0;
-        background: url("/assets/images/feedback_bg.png") var(--Blue-1, #2e67f8);
+        background: url("../images/feedback_bg.png") var(--Blue-1, #2e67f8);
         background-position: left;
         background-repeat: no-repeat;
         background-size: auto 100%;
@@ -1328,7 +1328,7 @@ header.white .header__contact a {
     flex: 1;
     padding: 3.25rem;
     border-radius: 1rem;
-    background: url("/assets/images/about_bg_main.png") #2e67f8;
+    background: url("../images/about_bg_main.png") #2e67f8;
     background-position: left;
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -1428,7 +1428,7 @@ header.white .header__contact a {
     .about__left {
         width: 100%;
         padding: 2.5rem 1rem;
-        background: url("/assets/images/about_bg_main.png") #2e67f8;
+        background: url("../images/about_bg_main.png") #2e67f8;
         background-position: left;
         background-repeat: no-repeat;
         background-size: auto 100%;
@@ -1844,7 +1844,7 @@ header.white .header__contact a {
 .suggestion__one__container {
     border-radius: 1rem;
     border: 0.0625rem solid #d9e2f3;
-    background: url("/assets/images/suggestion__one_bg.png") rgba(255, 255, 255, 0.4);
+    background: url("../images/suggestion__one_bg.png") rgba(255, 255, 255, 0.4);
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -1932,7 +1932,7 @@ header.white .header__contact a {
 }
 .about_promo__content {
     border-radius: 1rem;
-    background: url("/assets/images/about_promo.png") rgba(46, 103, 248, 0.5);
+    background: url("../images/about_promo.png") rgba(46, 103, 248, 0.5);
     background-position: left;
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -2348,7 +2348,7 @@ header.white .header__contact a {
 .about_gallery__right__content {
     border-radius: 1rem;
     border: 0.0625rem solid #d9e2f3;
-    background: url("/assets/images/gallery2.png") rgba(255, 255, 255, 0.4);
+    background: url("../images/gallery2.png") rgba(255, 255, 255, 0.4);
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100%;
