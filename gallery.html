@@ -68,16 +68,61 @@
                             info@rsp-34.com
                         </a>
                     </div>
-                    <button class="header__btn">
+                    <button class="header__btn feedback_popup__open">
                         Оформить заказ
                     </button>
                     <button class="header__mobile_menu">
-                        <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect y="0.5" width="20" height="1" fill="white" />
-                            <rect y="5.5" width="20" height="1" fill="white" />
-                            <rect y="10.5" width="20" height="1" fill="white" />
-                        </svg>
+                        <div class="line">
+                        </div>
+                        <div class="line">
+                        </div>
+                        <div class="line">
+                        </div>
                     </button>
+                    <div class="mobile_menu__bg"></div>
+                    <div class="mobile_menu">
+                        <div class="mobile_menu__container">
+                            <div class="mobile_menu__wrap">
+                                <nav>
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                Каталог
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="" class="active">
+                                                О нас
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Галерея
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Контакты
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                Блог
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <div class="mobile_menu__contact">
+                                    <a href="">
+                                        +7 499 322 95 96
+                                    </a>
+                                    <a href="">
+                                        info@rsp-34.com
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -340,7 +385,172 @@
             </div>
         </div>
     </footer>
+    <div class="feedback_popup ">
+        <div class="feedback_popup__container">
+            <button class="feedback_popup__close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                    <path d="M1 1.5L13 13.5M1 13.5L13 1.5" stroke="white" stroke-width="1.8" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+            <div class="feedback_popup__wrap">
+                <div class="feedback_popup__text">
+                    Для оформления заказа оставьте контактные данные и мы свяжемся с вами в течение рабочего времени
+                    8:00 – 17:00 (МСК)
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Имя*">
+                    <input type="text" placeholder="Название компании*">
+                    <input type="text" placeholder="+7 (999)-999-99-99*">
+                    <input type="text" placeholder="E–mail*">
+                    <textarea name="" id="" placeholder="Комментарий"></textarea>
+                    <div class="checkbox">
+                        <input class="custom-checkbox" type="checkbox" id="policy-3" name="policy-3" value="policy">
+                        <label for="policy-3">
+                            <div>Согласен с <a href="">политикой конфиденциальности</a> и даю согласие на обработку
+                                персональных данных</div>
+                        </label>
+                    </div>
+                    <button>
+                        <span>
+                            Отправить
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="feedback_popup_catalog ">
+        <div class="feedback_popup_catalog__container">
+            <button class="feedback_popup_catalog__close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                    <path d="M1 1.5L13 13.5M1 13.5L13 1.5" stroke="white" stroke-width="1.8" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+            <div class="feedback_popup_catalog__wrap">
+                <div class="feedback_popup_catalog__text">
+                    Оставьте контактные данные для получения каталога продукции RSP
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Имя*">
+                    <input type="text" placeholder="Название компании*">
+                    <input type="text" placeholder="+7 (999)-999-99-99*">
+                    <input type="text" placeholder="E–mail*">
+                    <textarea name="" id="" placeholder="Комментарий"></textarea>
+                    <div class="checkbox">
+                        <input class="custom-checkbox" type="checkbox" id="policy-4" name="policy-4" value="policy">
+                        <label for="policy-4">
+                            <div>Согласен с <a href="">политикой конфиденциальности</a> и даю согласие на обработку
+                                персональных данных</div>
+                        </label>
+                    </div>
+                    <button>
+                        <span>
+                            Отправить
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="feedback_popup_uplot ">
+        <div class="feedback_popup_uplot__container">
+            <button class="feedback_popup_uplot__close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                    <path d="M1 1.5L13 13.5M1 13.5L13 1.5" stroke="white" stroke-width="1.8" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+            <div class="feedback_popup_uplot__wrap">
+                <div class="feedback_popup_uplot__text">
+                    Бесплатно подберем уплотнения для решения конкретных задач. Оставьте контактные данные для связи с
+                    нами
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Имя*">
+                    <input type="text" placeholder="Название компании*">
+                    <input type="text" placeholder="+7 (999)-999-99-99*">
+                    <input type="text" placeholder="E–mail*">
+                    <textarea name="" id="" placeholder="Комментарий"></textarea>
+                    <div class="checkbox">
+                        <input class="custom-checkbox" type="checkbox" id="policy-4" name="policy-4" value="policy">
+                        <label for="policy-4">
+                            <div>Согласен с <a href="">политикой конфиденциальности</a> и даю согласие на обработку
+                                персональных данных</div>
+                        </label>
+                    </div>
+                    <button>
+                        <span>
+                            Отправить
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="feedback_popup_call ">
+        <div class="feedback_popup_call__container">
+            <button class="feedback_popup_call__close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                    <path d="M1 1.5L13 13.5M1 13.5L13 1.5" stroke="white" stroke-width="1.8" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+            <div class="feedback_popup_call__wrap">
+                <div class="feedback_popup_call__text">
+                    Оставьте контактные данные для связи с персональным менеджером
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Имя*">
+                    <input type="text" placeholder="+7 (999)-999-99-99*">
+                    <div class="checkbox">
+                        <input class="custom-checkbox" type="checkbox" id="policy-5" name="policy-5" value="policy">
+                        <label for="policy-5">
+                            <div>Согласен с <a href="">политикой конфиденциальности</a> и даю согласие на обработку
+                                персональных данных</div>
+                        </label>
+                    </div>
+                    <button>
+                        <span>
+                            Отправить
+                        </span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="feedback_popup_method">
+        <div class="feedback_popup_method__container">
+            <button class="feedback_popup_method__close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                    <path d="M1 1.5L13 13.5M1 13.5L13 1.5" stroke="white" stroke-width="1.8" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+            <div class="feedback_popup_method__wrap">
+                <div class="feedback_popup_method__title">
+                    Преимущества технологии:
+                </div>
+                <div class="feedback_popup_method__text">
+                    — не требует изготовления пресс-форм— сокращает время производства уплотненийв десятки раз
+                    <br><br>
+                    — даёт возможность изготовливать уплотнения высокой точности любых размеров и форм
+                    <br><br>
+                    — работа с различными материалами расширяет возможности производства
+                    <br><br>
+                    — адаптация уплотнений
+                    под конкретные требования и условия клиента
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <script src="assets/js/app.js"></script>
+    <script src="assets/js/animation.js"></script>
 </body>
 
 </html>

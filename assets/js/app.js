@@ -85,6 +85,17 @@ $('.feedback_popup_method__open').on('click', openMethod);
 
 
 
+function openMenu() {
+    $('.mobile_menu').toggleClass('active');
+    $('.header__mobile_menu').toggleClass('active');
+    $('.mobile_menu__bg').toggleClass('active');
+    $('body').toggleClass('no-scroll');
+}
+
+$('.header__mobile_menu').on('click', openMenu);
+
+
+
 const about_gallery__swiper = new Swiper('.about_gallery__swiper', {
     slidesPerView: 1,
     loop: false,
